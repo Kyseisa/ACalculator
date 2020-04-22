@@ -19,7 +19,7 @@
         android:text="History"
         />
 
-    <ListView
+    <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/list_history_page"
         android:layout_width="match_parent"
         android:layout_height="0dp"
@@ -31,6 +31,8 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
+        android:onClick="onClickBack"
+        android:tag="Back"
         android:backgroundTint="@color/orangeAccent"
         android:textSize="24sp"
         android:textColor="@color/white"
