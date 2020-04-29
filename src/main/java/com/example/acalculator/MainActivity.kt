@@ -34,7 +34,7 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
     }
 
     override fun onRestoreInstanceState(savedInstanceState: Bundle) {
-        text_visor.text = savedInstanceState?.getString(VISOR_KEY)
+        text_visor.text = savedInstanceState.getString(VISOR_KEY)
     }
 
     override fun onSaveInstanceState(outState: Bundle) {
